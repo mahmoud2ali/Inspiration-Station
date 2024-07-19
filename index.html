@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Inspiration Station</title>
+</head>
+<body>
+
+    <div id="notification" class="notification"></div>
+    <header class="logo-container">
+        <div class="logo-icon">IS</div>
+        <div class="logo-text">Inspiration Station</div>
+    </header>
+
+    <main>
+        <button class="generate-button" id="generateButton">Find Inspiration</button>
+        <div class="quote-container" id="qoute-container">
+            <p class="quote-text" id="qoute-text"></p>
+            <p class="quote-author"  id="qoute-author"></p>
+        </div>
+        <button  class="generate-button btn" onclick="copyFun()">Copy Quote</button>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
